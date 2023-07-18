@@ -17,6 +17,7 @@
   <img align="center" alt="PostgreSQL" height="30" width="40" src="./images/postgresql.svg">
   <img align="center" alt="MongoDB" height="30" width="40" src="./images/mongodb.svg">
   <img align="center" alt="Docker" height="30" width="40" src="./images/docker.svg">
+  <img align="center" alt="AWS" height="30" width="40" src="./images/aws.svg">
   
  
 </div>
