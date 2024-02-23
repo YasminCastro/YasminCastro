@@ -1,6 +1,6 @@
 ## Olá, Eu sou Yasmin Castro
 
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; gap: 2px;">
   <a href="https://github.com/YasminCastro">
    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YasminCastro&layout=compact&langs_count=6&theme=dark"/>
     <img align="right" alt="Yas-pic" height="180em" style="border-radius:70px;" src="./images/profile.png">
