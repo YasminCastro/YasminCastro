@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://github.com/YasminCastro">
    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YasminCastro&layout=compact&langs_count=6&theme=dark"/>
-    <img align="right" alt="Yas-pic" height="150" style="border-radius:70px;" src="./images/download20220502121744.png">
+    <img align="right" alt="Yas-pic" height="150" style="border-radius:70px;" src="./images/profile.png">
 </div>
 
 <div style="display: inline_block"><br>
