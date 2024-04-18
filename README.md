@@ -1,4 +1,4 @@
-## Olá, Eu sou Yasmin Castro
+## Hi, I'm Yasmin Castro
 
 <div align="center"">
   <a href="https://github.com/YasminCastro">
