@@ -18,18 +18,26 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Remove contributions counter overlay
+      - name: Keep only the city (strip radar, donut and stats overlay)
         run: |
           python3 - <<'EOF'
-          import glob, re
+          import xml.etree.ElementTree as ET
+          import glob
+
+          ET.register_namespace("", "http://www.w3.org/2000/svg")
+          ns = "{http://www.w3.org/2000/svg}"
 
           for path in glob.glob("profile-3d-contrib/*.svg"):
-              with open(path, "r", encoding="utf-8") as f:
-                  content = f.read()
-              content = re.sub(r'<text[^>]*font-weight: bold;"[^>]*>\d+</text>', "", content)
-              content = re.sub(r'<text[^>]*>contributions</text>', "", content)
-              with open(path, "w", encoding="utf-8") as f:
-                  f.write(content)
+              tree = ET.parse(path)
+              root = tree.getroot()
+              g_children = [c for c in root if c.tag.replace(ns, "") == "g"]
+              # the city grid is the group with by far the most children (one per building);
+              # the radar chart, language donut and stats/star/fork overlay are the smaller groups
+              city = max(g_children, key=lambda c: len(list(c)))
+              for c in g_children:
+                  if c is not city:
+                      root.remove(c)
+              tree.write(path, encoding="utf-8", xml_declaration=False)
           EOF
       - name: Commit & Push
         run: |
