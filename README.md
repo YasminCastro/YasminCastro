@@ -1,30 +1,38 @@
-## Hi, I'm Yasmin Castro
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="id_badge_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="id_badge_light.svg">
+    <img src="id_badge_light.svg" alt="ID badge">
+  </picture>
+</p>
 
-<div align="center"">
-  <a href="https://github.com/YasminCastro">
-   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YasminCastro&layout=compact&langs_count=6&theme=dark"/>
-    <img align="right" alt="Yas-pic" height="180em" style="border-radius:70px;" src="./images/profile.png">
-</div>
-
-<div style="display: inline_block"><br>
-  <img align="center" alt="JavaScript" height="30" width="40" src="./images/javascript.svg">
-  <img align="center" alt="TypeScript" height="30" width="40" src="./images/typescript.svg">
-  <img align="center" alt="NodeJS" height="30" width="40" src="./images/node.svg">
-  <img align="center" alt="HTML5" height="30" width="40" src="./images/html.svg">
-  <img align="center" alt="CSS3" height="30" width="40" src="./images/css3.svg">  
-  <img align="center" alt="ReactJs" height="30" width="40" src="./images/react.svg">
-  <img align="center" alt="AngularJs" height="30" width="40" src="./images/angular.svg">
-  <img align="center" alt="PostgreSQL" height="30" width="40" src="./images/postgresql.svg">
-  <img align="center" alt="MongoDB" height="30" width="40" src="./images/mongodb.svg">
-  <img align="center" alt="Docker" height="30" width="40" src="./images/docker.svg">
-  <img align="center" alt="AWS" height="30" width="40" src="./images/aws.svg">
-  
- 
-</div>
-
-<div> 
-<br>
-  <a href="https://www.yascastro.com.br" target="_blank"><img src="https://img.shields.io/badge/Yas%20Castro-%23E4405F?style=for-the-badge&logo=styled-components&logoColor=white" target="_blank"></a> 
+<div align="center"> 
+  <a href="https://www.yascastro.com.br" target="_blank"><img src="https://img.shields.io/badge/Yas%20Castro-%23E4405F?style=for-the-badge&logo=googlechrome&logoColor=white" target="_blank"></a> 
   <a href = "mailto:yasminsdcastro@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"><a>
   <a href="https://www.linkedin.com/in/yasmin-castro-b579451b8" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
+
+## 🚀 About Me
+
+<table border="0" cellspacing="0" cellpadding="0" style="border: none;">
+  <tr style="border: none;">
+    <td valign="top" width="60%" style="border: none;">
+      I enjoy building products that turn raw data into decisions people can actually act on.
+      <br><br>
+      <!-- PROJECTS:START --> 🔭 I'm currently working on <a href="https://github.com/YasminCastro/yastech-status">yastech-status</a> and <a href="https://github.com/YasminCastro/FlowHub.3D">FlowHub.3D</a>. <!-- PROJECTS:END -->
+      <br><br>
+      🌱 I'm constantly learning about scalable backend architecture and AI/computer vision integrations.
+    </td>
+    <td valign="top" width="40%" align="center" style="border: none;">
+      <a href="https://github.com/kittinan/spotify-github-profile">
+        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=yasmincastro&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false">
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 🏙️ My GitHub City
+
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="isometric 3D city" />
 </div>
