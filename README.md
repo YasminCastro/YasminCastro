@@ -14,22 +14,17 @@
 
 ## 🚀 About Me
 
-<table border="0" cellspacing="0" cellpadding="0" style="border: none;">
-  <tr style="border: none;">
-    <td valign="top" width="60%" style="border: none;">
-      I enjoy building products that turn raw data into decisions people can actually act on.
-      <br><br>
-      <!-- PROJECTS:START --> 🔭 I'm currently working on <a href="https://github.com/YasminCastro/yastech-status">yastech-status</a> and <a href="https://github.com/YasminCastro/FlowHub.3D">FlowHub.3D</a>. <!-- PROJECTS:END -->
-      <br><br>
-      🌱 I'm constantly learning about scalable backend architecture and AI/computer vision integrations.
-    </td>
-    <td valign="top" width="40%" align="center" style="border: none;">
-      <a href="https://github.com/kittinan/spotify-github-profile">
-        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=yasmincastro&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false">
-      </a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/kittinan/spotify-github-profile">
+  <img align="right" width="320" src="https://spotify-github-profile.kittinanx.com/api/view?uid=yasmincastro&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false">
+</a>
+
+I enjoy building products that turn raw data into decisions people can actually act on.
+
+<!-- PROJECTS:START --> 🔭 I'm currently working on <a href="https://github.com/YasminCastro/yastech-status">yastech-status</a> and <a href="https://github.com/YasminCastro/FlowHub.3D">FlowHub.3D</a>. <!-- PROJECTS:END -->
+
+🌱 I'm constantly learning about scalable backend architecture and AI/computer vision integrations.
+
+<br clear="right" />
 
 ## 🏙️ My GitHub City
 
