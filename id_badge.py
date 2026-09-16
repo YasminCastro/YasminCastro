@@ -37,13 +37,14 @@ def calculate_age():
     days = (now - temp_date).days
     return f"{years} yr(s), {months} mo(s), {days} day(s)"
 
-def encode_image_to_base64(image_path, crop_aspect=1.25):
+def encode_image_to_base64(image_path, crop_aspect=1.25, bg_color="#ffffff"):
     if not os.path.exists(image_path):
         return None
 
     try:
-        img = Image.open(image_path)
-        img = img.convert("RGB")
+        img = Image.open(image_path).convert("RGBA")
+        background = Image.new("RGBA", img.size, bg_color)
+        img = Image.alpha_composite(background, img).convert("RGB")
 
         w, h = img.size
         # Crop to match the badge's image slot aspect ratio
@@ -98,7 +99,6 @@ def justify_dots_and_val(key_str, value_str, total_line_len):
 def generate_svg(filename, is_dark_mode, uptime):
     # Left column image slot geometry (matches previous ASCII art bounding box)
     img_x, img_y, img_w, img_h = 15, 15, 355, 385
-    profile_image = encode_image_to_base64("profile.png", crop_aspect=img_w / img_h)
 
     # Theme Specific Colors
     if is_dark_mode:
@@ -119,6 +119,8 @@ def generate_svg(filename, is_dark_mode, uptime):
         key = "#953800"
         val = "#0a3069"
         separator = "#c2cfde"
+
+    profile_image = encode_image_to_base64("profile.png", crop_aspect=img_w / img_h, bg_color=bg)
 
     svg_parts = []
     svg_parts.append('<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="415px" font-size="16px">')
