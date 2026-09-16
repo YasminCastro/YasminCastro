@@ -18,7 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Keep only the city (strip radar, donut and stats overlay)
+      - name: Keep only the city and language donut (strip radar and stats overlay)
         run: |
           python3 - <<'EOF'
           import xml.etree.ElementTree as ET
@@ -32,10 +32,13 @@ jobs:
               root = tree.getroot()
               g_children = [c for c in root if c.tag.replace(ns, "") == "g"]
               # the city grid is the group with by far the most children (one per building);
-              # the radar chart, language donut and stats/star/fork overlay are the smaller groups
+              # the action renders the remaining groups in a fixed order: radar chart,
+              # language donut, then the stats/star/fork overlay
               city = max(g_children, key=lambda c: len(list(c)))
+              rest = [c for c in g_children if c is not city]
+              donut = rest[1]
               for c in g_children:
-                  if c is not city:
+                  if c is not city and c is not donut:
                       root.remove(c)
               tree.write(path, encoding="utf-8", xml_declaration=False)
           EOF
