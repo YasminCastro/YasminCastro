@@ -20,7 +20,7 @@
 
 I enjoy building products that turn raw data into decisions people can actually act on.
 
-<!-- PROJECTS:START --> 🔭 I'm currently working on <a href="https://github.com/YasminCastro/job-hunter">job-hunter</a> and <a href="https://github.com/YasminCastro/yastech-status">yastech-status</a>. <!-- PROJECTS:END -->
+<!-- PROJECTS:START --> 🔭 I'm currently working on <a href="https://github.com/YasminCastro/jobhunter-ts">jobhunter-ts</a> and <a href="https://github.com/YasminCastro/job-hunter">job-hunter</a>. <!-- PROJECTS:END -->
 
 🌱 I'm constantly learning about scalable backend architecture and AI/computer vision integrations.
 
