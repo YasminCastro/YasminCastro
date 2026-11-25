@@ -20,7 +20,7 @@
 
 I enjoy building products that turn raw data into decisions people can actually act on.
 
-<!-- PROJECTS:START --> 🔭 I'm currently working on <a href="https://github.com/YasminCastro/yastech.3d">yastech.3d</a> and <a href="https://github.com/YasminCastro/FlowHub.3D">FlowHub.3D</a>. <!-- PROJECTS:END -->
+<!-- PROJECTS:START --> 🔭 I'm currently working on <a href="https://github.com/YasminCastro/finances">finances</a> and <a href="https://github.com/YasminCastro/yastech.3d">yastech.3d</a>. <!-- PROJECTS:END -->
 
 🌱 I'm constantly learning about scalable backend architecture and AI/computer vision integrations.
 
